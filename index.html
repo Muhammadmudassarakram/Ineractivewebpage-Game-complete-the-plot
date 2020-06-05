@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>The Game</title>
+    <link href="index.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Inline&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main-page">
+        
+        <div class="nav-wrap">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="index.html"><h1>Complete the image</h1></a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <div class="dropdown">
+                            <div class="dropbtn">Levels</div>
+                            <div class="dropdown-content">
+                              <a href="game.html">Simple</a>
+                              <a href="com.html">Basic</a>
+                              <a href="complex.html">Complex</a>
+                            </div>
+                        </div>
+                </ul>
+            </nav>
+        </div>
+    
+    <div class="content">
+    <div class="content-wrap">
+            <div class="question"><h2 id="question">Can you figure out the puzzle on time?</h2>
+            </div>    
+    <section>
+            
+        
+        <div class="easy">
+            <h2>Simple</h2>
+           <p><span id="dots">Level 1...</span><span id="more">The easiest level with nine boxes. Try to complete the image as fast as you can.</p></span>
+           <div class="button_container">
+           <button onclick="myFunction('dots')" id="myBtn" class="btn2">Read more</button> 
+           <br>
+           <br>
+                <a href="game.html"><button class="btn"><span>Play!</span></button></a>
+                
+            </div>
+            
+        </div> 
+
+        <div class="basic">
+            <h2>Basic</h2>
+            <p><span id="dots2">Level 2...</span><span id="more2">Next level with 16 boxes. Try to complete the image as fast as you can. Good luck!</p></span>
+            <div class="button_container">
+            <button onclick="myFunction('dots2')" id="myBtn2" class="btn2">Read more</button>
+            <br>
+            <br>
+                <a href="com.html"><button class="btn"><span>Play!</span></button></a>
+                
+            </div>
+        </div> 
+        
+        <div class="hard">
+            <h2>Complex</h2>
+            <p><span id="dots3">Level 3...</span><span id="more3">The hardest level with 25 boxes. Try to solve it as fast as you can. Click play to try it out!</p></span>
+            <div class="button_container">
+            <button onclick="myFunction('dots3')" id="myBtn3" class="btn2">Read more</button>
+            <br>
+            <br>
+                <a href="complex.html"><button class="btn"><span>Play!</span></button></a>
+        </div>  
+        
+        
+    </section> 
+           
+        </div>
+    </div>
+    </div>
+    <footer></footer>
+    <script src="index.js"></script>
+</body>
+</html>
